@@ -3,16 +3,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Method_Overloading",
+            "name": "Run Current File",
             "request": "launch",
-            "mainClass": "Method_Overloading",
-            "projectName": "OOPs_f289d97d"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${fileBasenameNoExtension}"
         }
     ]
 }
