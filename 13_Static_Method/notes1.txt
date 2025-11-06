@@ -1,0 +1,19 @@
+Static method vs non static method
+= remember we can call static method with object reference or class name  e.g ClassName.staticMethod() or objReference.statiMethod()
+= but non static method dependent on object so it can be called only  by object reference. e.g objReference.nonStaticMethod();
+
+-------------------
+We cannot access instance variable in static method directly we need to use referrence of object for it and
+need to pass object as parameter
+Example: here brand and price are instance variable
+public static void show1(Mobile obj){
+         System.out.println(obj.brand +":"+obj.price+":"+name);
+    }
+
+To call above method we can it like this
+here Mobile is class and obj1 is actual object created.
+Mobile.show1(obj1);
+
+Remember one thing:
+i)we can use static property, member inside non static block or method without object creation.
+ii) But we cannot use non static property or method inside static block or method without object creation.
