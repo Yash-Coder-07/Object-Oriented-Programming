@@ -1,7 +1,3 @@
-Sure! Here is a **clean, professional, GitHub-ready README section** for your OOPs → Access Modifiers topic.
-You can paste this directly into your `README.md` file.
-
----
 
 # 📘 Java Access Modifiers – Quick Notes
 
