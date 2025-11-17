@@ -1,5 +1,5 @@
 
-# 📘 Java Access Modifiers – Quick Notes
+# Java Access Modifiers – Quick Notes
 
 ## 🔹 What are Access Modifiers?
 
